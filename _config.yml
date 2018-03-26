@@ -1,5 +1,5 @@
 actors:
-  alice:
+  isaiyiniyan:
     image_url: /images/actors/alice.png
     name: alice
     url: http://sns.example.com/alice
@@ -7,9 +7,9 @@ actors:
     image_url: /images/actors/bob.png
     name: bob
     url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
+author: Isaiyiniyan
+description: இயற்கையின் பேராற்றலால் ..
+description_long: இசையோடும் இயற்கையோடும் நாம்
 email: info@example.com
 exclude:
   - docker
@@ -28,6 +28,6 @@ markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
-timezone: Asia/Tokyo
-title: Example title
+timezone: Asia/TamilNadu
+title: இசையினி பண்பலை
 url: https://thanithamizhakarathikalanjiyam.github.io/isaiyinifm/

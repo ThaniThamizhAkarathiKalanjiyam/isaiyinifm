@@ -13,7 +13,7 @@
               </a>
             </h1>
             <div class="article-header-note">
-              {{ page.date | date: "%Y年%m月%d日" }}
+              {{ page.date | date: "%Yவருடம்%mமாதம்%dநாள்" }}
             </div>
           </header>
           <section class="card-body markdown">
@@ -30,17 +30,17 @@
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
+                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3 தரவிறக்க</a>
               </small>
             </p>
             <h2>
-              内容紹介
+              விளக்கம்
             </h2>
             <p>
               {{ page.description }}
             </p>
             <h2>
-              出演者
+              கலைஞர்
             </h2>
             <div class="article-actors">
               {% for actor_id in page.actor_ids %}
@@ -54,11 +54,11 @@
             </div>
             {{ content }}
           </section>
-          <footer class="article-footer">
+          <!--footer class="article-footer">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
               Tweet
             </a>
-          </footer>
+          </footer-->
         </article>
       </div>
     </main>
