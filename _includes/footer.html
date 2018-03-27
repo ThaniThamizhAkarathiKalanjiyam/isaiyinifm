@@ -4,10 +4,10 @@
       <div class="row">
         <section class="column-small-4 footer-sections-element">
           <h1 class="footer-sections-element-heading">
-            {{ site.title }} とは
+            {{ site.title }}
           </h1>
           <div class="footer-sections-element-description">
-            {{ site.title }} は、{{ site.description_long }}です。
+            {{ site.description_long }}
           </div>
         </section>
         <section class="column-small-4 footer-sections-element">
@@ -25,32 +25,33 @@
         </section>
         <section class="column-small-4 footer-sections-element">
           <h1 class="footer-sections-element-heading">
-            購読
+           Podcast
           </h1>
           <div class="footer-sections-element-description">
-            新しいエピソードの配信を購読できます。
+            விரும்பும் கருவிகளில் கேளுங்கள்
           </div>
           <ul>
             {% if site.itunes_podcast_url %}
               <li>
-                <a href="{{ site.itunes_podcast_url }}" target="_blank">iTunesで購読</a>
+                <a href="{{ site.itunes_podcast_url }}" target="_blank">iTunes ஐடுயூன்சு</a>
               </li>
             {% endif %}
             <li>
-              <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
+              <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Android ஆன்ட்ராய்டு</a>
+			  <a href="http://subscribeonandroid.com/thanithamizhakarathikalanjiyam.github.io/isaiyinifm/feed.xml" title="Subscribe on Android"><img src="https://assets.blubrry.com/soa/BadgeLarge.png" alt="Subscribe on Android" style="border:0;" /></a>
             </li>
             <li>
-              <a href="https://push.dog/subscribe?url={{ site.github.url }}/feed.xml" target="_blank">Pushdogで購読</a>
+              <a href="https://push.dog/subscribe?url={{ site.github.url }}/feed.xml" target="_blank">Pushdog புட்சுடாக்கு</a>
             </li>
             <li>
-              <a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
+              <a href="{{ site.github.url }}/feed.xml" target="_blank">RSS ஆர்எட்சுஎட்சு</a>
             </li>
           </ul>
         </section>
       </div>
     </div>
     <div class="footer-copyright">
-      © 2016 <a href="{{ site.github.url }}/">{{ site.title }}</a>
+      © 2016 - 2018 <a href="{{ site.github.url }}/">{{ site.title }}</a>
     </div>
   </div>
 </footer>
