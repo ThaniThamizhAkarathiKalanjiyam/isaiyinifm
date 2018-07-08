@@ -10,7 +10,7 @@ actors:
 author: Isaiyiniyan
 description: இயற்கையின் பேராற்றலால் ..
 description_long: இசையோடும் இயற்கையோடும் நாம்
-email: info@example.com
+email: pitchaimuthu2050@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,10 +20,10 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: isaiyinifm
 itunes_podcast_url:
-keywords: comma,separated,keywords
-language: ja
+keywords: இசையினி,பண்பலை,அஃக,Tamil FM
+language: ta
 markdown: kramdown
 permalink: /episode/:title
 sass:
